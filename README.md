@@ -1,3 +1,2 @@
-# calculator_app
-
-A new Flutter project.
+# Calculator App
+A simple Flutter calculator application.
