@@ -1,7 +1,14 @@
-"*.dart linguist-detectable" 
-"*.cpp linguist-detectable=false" 
-"*.c linguist-detectable=false" 
-"*.m linguist-detectable=false"       # Objective-C
-"*.swift linguist-detectable=false" 
-"*.kt linguist-detectable=false"     # Kotlin
-"*.cmake linguist-detectable=false" 
+# Promote Dart detection
+*.dart linguist-detectable
+
+# Suppress detection of native and build-related code
+*.cpp linguist-detectable=false
+*.c linguist-detectable=false
+*.m linguist-detectable=false
+*.swift linguist-detectable=false
+*.kt linguist-detectable=false
+*.cmake linguist-detectable=false
+
+# Optional: Ignore entire native folders
+android/** linguist-vendored
+ios/** linguist-vendored
