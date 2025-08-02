@@ -1,0 +1,7 @@
+"*.dart linguist-detectable" 
+"*.cpp linguist-detectable=false" 
+"*.c linguist-detectable=false" 
+"*.m linguist-detectable=false"       # Objective-C
+"*.swift linguist-detectable=false" 
+"*.kt linguist-detectable=false"     # Kotlin
+"*.cmake linguist-detectable=false" 
